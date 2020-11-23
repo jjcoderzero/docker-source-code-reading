@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    app: jnlp-slave-python
+spec:
+  containers:
+    - name: python
+      image: shdr-applications-registry-vpc.cn-shanghai.cr.aliyuncs.com/base-image/python:3.7.6-slim-buster
+      imagePullPolicy: IfNotPresent
+      command:
+        - cat
+      tty: true
+      workingDir: "/home/jenkins"
+  restartPolicy: Always
+  imagePullSecrets:
+    - name: "registry-password"
+      volumeMounts:
+        - name:  python-pvc-nas
+        mountPath:  jenkins-slave-nas-pvc
+  
