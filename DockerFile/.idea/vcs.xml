@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/busybox" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/django" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docker-agent" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docker-maven" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docker-node" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/elasticsearch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/golang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/healthcheck" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/logstash" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mongo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/nginx" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/php" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rabbitmq" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/redis" vcs="Git" />
+  </component>
+</project>
